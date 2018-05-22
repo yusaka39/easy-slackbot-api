@@ -1,6 +1,6 @@
-package io.github.yusaka39.easySlackbot.api.decorator
+package com.github.yusaka39.slackbot.api.decorator
 
-import io.github.yusaka39.easySlackbot.api.entity.Action
+import com.github.yusaka39.slackbot.api.entity.Action
 
 interface ActionProviderDecorator {
     fun decorate(provider: () -> Action): () -> Action

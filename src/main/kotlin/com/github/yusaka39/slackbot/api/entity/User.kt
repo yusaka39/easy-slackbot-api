@@ -1,4 +1,4 @@
-package io.github.yusaka39.easySlackbot.api.entity
+package com.github.yusaka39.slackbot.api.entity
 
 interface User {
     val id: String
